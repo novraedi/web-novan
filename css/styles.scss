@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+// $theme-colors: (
+//   "primary":    $primary,
+//   "secondary":  $secondary,
+//   "success":    #44A13C,
+//   "info":       $info,
+//   "warning":    $warning,
+//   "danger":     $danger,
+//   "light":      $light,
+//   "dark":       $dark
+// );
+
+$success : #44A13C;
+
+.bg-success {
+    background-color: #44A13C !important;
+   
+  }
+  
+  .btn-success{
+    background-color: #44A13C;
+    border: 2px solid transparent;
+    transition: .4s all;
+  
+    &:hover{
+      background-color: transparent;
+      border: 2px solid #44A13C;
+      color: #44A13C;
+    }
+  
+  
+  }
+  
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.scroll-header {
+    box-shadow: 4px 2px 4px rgba(0, 0, 0, .15);
+    background-color: #fafafa !important;
+    transition: .4s;
+    transition-timing-function: ease;
+    padding-bottom: 14px;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    right: 0;
+    width: 100%;
+
+
+
+
+    .nav-link{
+        color: black;
+        cursor: pointer !important;
+
+        &:hover{
+            color: #44A13C !important;
+        }
+    }
+
+    
+    .active{
+        color: #44A13C !important;
+        border-bottom: 2px solid #44A13C;
+    }
+}
+.hero-section{
+    // margin-top: 100px;
+    background-image: url('../../img/Symbols.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    
+    @media screen and(min-width:768px) {
+        padding: 100px 0;
+    }
+
+
+    .title{
+        // margin-top: 100px;
+        
+    }
+
+    .btn-hero{
+        // width: 15%;
+        background-color: #44A13C;
+        font-weight: 700;
+        border: 2px solid transparent;
+        transition: .4s all;
+        
+        &:hover{
+            background-color: transparent;
+            border: 2px solid #44A13C;
+            color: #44A13C;
+        }
+    }
+}
+
+.about-section{
+   
+        
+    background: linear-gradient(42.31deg, #44A13D 0%, #4FF841 100%);
+
+    @media screen and(min-width:922px) {
+        margin-top: -200px;
+    }
+}

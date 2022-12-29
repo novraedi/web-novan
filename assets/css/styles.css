@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+.bg-success {
+  background-color: #44A13C !important;
+}
+
+.btn-success {
+  background-color: #44A13C;
+  border: 2px solid transparent;
+  -webkit-transition: .4s all;
+  transition: .4s all;
+}
+
+.btn-success:hover {
+  background-color: transparent;
+  border: 2px solid #44A13C;
+  color: #44A13C;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.scroll-header {
+  -webkit-box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.15);
+  background-color: #fafafa !important;
+  -webkit-transition: .4s;
+  transition: .4s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  padding-bottom: 14px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  right: 0;
+  width: 100%;
+}
+
+.navbar .nav-link {
+  color: black;
+  cursor: pointer !important;
+}
+
+.navbar .nav-link:hover {
+  color: #44A13C !important;
+}
+
+.navbar .active {
+  color: #44A13C !important;
+  border-bottom: 2px solid #44A13C;
+}
+
+.hero-section {
+  background-image: url("../../img/Symbols.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: top;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-section {
+    padding: 100px 0;
+  }
+}
+
+.hero-section .btn-hero {
+  background-color: #44A13C;
+  font-weight: 700;
+  border: 2px solid transparent;
+  -webkit-transition: .4s all;
+  transition: .4s all;
+}
+
+.hero-section .btn-hero:hover {
+  background-color: transparent;
+  border: 2px solid #44A13C;
+  color: #44A13C;
+}
+
+.about-section {
+  background: linear-gradient(42.31deg, #44A13D 0%, #4FF841 100%);
+}
+
+@media screen and (min-width: 922px) {
+  .about-section {
+    margin-top: -200px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
